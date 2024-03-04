@@ -4,6 +4,6 @@
 
 @layer base {
     body {
-        @apply bg-gradient-to-r from-blue-500 to-green-500 text-indigo-700 font-mono;
+        @apply bg-gradient-to-r from-blue-500 to-green-500;
     }
 }
