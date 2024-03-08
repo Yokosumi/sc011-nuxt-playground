@@ -1,0 +1,13 @@
+<script lang="ts" setup>
+const props = defineProps<{
+  to: string;
+}>();
+</script>
+
+<template>
+  <NuxtLink :to="to" active-class="text-yellow-500 border-b-2 border-black">
+    <slot />
+  </NuxtLink>
+</template>
+
+<style scoped></style>
