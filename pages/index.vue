@@ -1,6 +1,4 @@
-<script setup>
-const route = useRoute();
-</script>
+<script setup></script>
 
 <template>
   <div>

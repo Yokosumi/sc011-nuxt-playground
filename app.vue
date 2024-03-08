@@ -1,7 +1,12 @@
 <script setup>
+import navbar from './components/navbar.vue';
+
 const route = useRoute();
 </script>
 
 <template>
-  <NuxtPage />
+  <navbar />
+  <div class="mx-8 my-4">
+    <NuxtPage />
+  </div>
 </template>

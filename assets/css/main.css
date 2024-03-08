@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-    body {
-        @apply bg-gradient-to-r from-blue-500 to-green-500;
-    }
+  body {
+    @apply bg-gradient-to-r from-blue-500 to-green-500;
+  }
 }
