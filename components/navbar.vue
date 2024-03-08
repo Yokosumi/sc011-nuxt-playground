@@ -17,9 +17,3 @@ import CustomLink from '@/components/CustomLink.vue';
     </li>
   </ul>
 </template>
-
-<style scoped>
-.nuxt-link-active {
-  color: red;
-}
-</style>
