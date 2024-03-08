@@ -4,7 +4,7 @@ const counter = useCounter();
 <template>
   <div class="w-full h-[100vh]">
     <h1>Home</h1>
-    <div class="flex-col">
+    <div>
       Counter: {{ counter.count }}
       <button @click="counter.increment">+</button>
       <button @click="counter.decrement">-</button>
