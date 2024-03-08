@@ -1,10 +1,7 @@
-<script setup></script>
-
+<script setup>
+const route = useRoute();
+</script>
 
 <template>
-  <h1 class="text-4xl font-bold  ">
-    Hello world!
-  </h1>
+  <NuxtPage />
 </template>
-
-
