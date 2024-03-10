@@ -7,7 +7,7 @@ interface Book {
 
 const url = 'https://edwardtanguay.vercel.app/share/books.json';
 
-const { data: books } = await useFetch<Book[]>(url);
+const { data: books } = await useFetch<Book[] | null>(url);
 </script>
 
 <template>
