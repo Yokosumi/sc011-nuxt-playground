@@ -14,8 +14,10 @@ const { data: books } = await useFetch<Book[] | null>(url);
   <div>
     <h1 class="text-xl">
       There are
-      <span class="font-bold text-green-400">{{ books?.length }}</span> books
-      available
+      <span class="font-bold text-green-400">{{
+        (books as Book[]).length
+      }}</span>
+      books available
     </h1>
     <ul>
       <li
