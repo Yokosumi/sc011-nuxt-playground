@@ -15,5 +15,8 @@ import CustomLink from '@/components/CustomLink.vue';
     <li>
       <CustomLink to="/books">Books</CustomLink>
     </li>
+    <li>
+      <CustomLink to="/products">Products</CustomLink>
+    </li>
   </ul>
 </template>
